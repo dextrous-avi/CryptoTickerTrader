@@ -1,8 +1,8 @@
 from bittrex.bittrex import Bittrex, API_V2_0, API_V1_1
-import json
 
-API_KEY = '29586e4034d6472e99cc116dc896ecd1'
-API_SECRET = 'bbd85a461d204df087a91655dfb037f6'
+
+API_KEY = 'API KEY'
+API_SECRET = 'API SECRET'
 PERCENT_BUY = 0.5
 
 bittrex_obj_api1 = Bittrex(API_KEY, API_SECRET, api_version=API_V1_1)
